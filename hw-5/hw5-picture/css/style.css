@@ -1,0 +1,81 @@
+body {
+  background: #b1a5a5;
+}
+table {
+  width: 490px;
+  height: 540px;
+  margin: 30px auto;
+}
+table, td {
+  /*border: 10px solid #18231c;*/
+  border-collapse: collapse;
+}
+tr {
+  height: 50px;
+}
+.row-8,
+.row-9 {
+  height: 30px;
+}
+td {
+  width: 70px;
+}
+.row-1 .cell-1,
+.row-1 .cell-3,
+.row-2 .cell-1,
+.row-4 .cell-1,
+.row-4 .cell-6,
+.row-4 .cell-7,
+.row-6 .cell-4,
+.row-6 .cell-6,
+.row-7 .cell-4,
+.row-8 .cell-2,
+.row-9 .cell-4  {
+  background: #ffffff;
+}
+.row-1 .cell-6 {
+  background: #ffee66;
+}
+.row-2 .cell-2 {
+  background: #ff5e41;
+}
+.row-2 .cell-6 {
+  background: #ffee66;
+}
+.row-6 .cell-2 {
+  background: #18231c;
+}
+.row-7 .cell-1 {
+  background: #ffee66;
+}
+.row-7 .cell-6 {
+  background: #0d4b89;
+}
+.row-8 .cell-4 {
+  background: #18231c;
+}
+.row-1 .cell-1,
+.row-1 .cell-3,
+.row-2 .cell-2,
+.row-2 .cell-1,
+.row-4 .cell-1,
+.row-4 .cell-6,
+.row-6 .cell-4,
+.row-7 .cell-4 {
+  border-right: 10px solid #18231c;
+  border-bottom: 10px solid #18231c;
+}
+.row-1 .cell-6,
+.row-2 .cell-6,
+.row-4 .cell-7,
+.row-6 .cell-6 {
+  border-bottom: 10px solid #18231c;
+}
+.row-7 .cell-1,
+.row-8 .cell-4,
+.row-8 .cell-2 {
+  border-right: 10px solid #18231c;
+}
+.row-9 .cell-4 {
+  border-top: 10px solid #18231c;
+}

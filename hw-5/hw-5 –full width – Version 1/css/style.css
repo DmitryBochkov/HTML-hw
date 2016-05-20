@@ -1,0 +1,235 @@
+body {
+  margin: 0;
+  padding: 0;
+  font: 14px Tahoma, sans-serif;
+}
+.container {
+    width: 100%;
+}
+header {
+  background: #1874cd;
+  height: 36px;
+}
+nav {
+  height: 36px;
+  background: #074e8c url(../img/nav-bg.png);
+}
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+nav ul li {
+  display: block;
+  float: left;
+}
+ul.main-menu {
+  margin-left: 30%;
+}
+ul.user-menu {
+  float: left;
+  margin-left: 1%;
+}
+.clearfix:after {
+  content: '';
+  clear: both;
+  display: table;
+}
+ul.main-menu a {
+  padding: 8px 15px;
+}
+ul.main-menu li a {
+  display: block;
+  text-decoration: none;
+  color: #60b5ed;
+}
+ul.main-menu li.current {
+  background-color: #4eabda;
+  font-weight: bold;
+  height: 36px;
+}
+ul.main-menu li.current a {
+  color: #ffffff;
+}
+ul.main-menu li a:hover {
+  color: #ffffff;
+}
+img.nav-divider {
+  display: block;
+  margin: 2px 10px;
+  float: left;
+}
+ul.user-menu li {
+  color: #ffffff;
+  text-align: center;
+}
+ul.user-menu li a {
+  color: #ffffff;
+}
+ul.user-menu li:first-child {
+  padding: 6px 5px 4px 5px;
+}
+ul.user-menu li:nth-child(2) a {
+  padding: 8px 15px;
+  display: inline-block;
+  text-decoration: none;
+}
+ul.user-menu li:last-child {
+  background-image: url(../img/login-bg.png);
+  height: 36px;
+  width: 191px;
+}
+ul.user-menu li:last-child span {
+  padding: 8px 8px 2px 8px;
+  display: inline-block;
+}
+ul.user-menu li:last-child a:hover {
+  text-decoration: none;
+}
+
+/*MAIN*/
+main {
+  background: url(../img/bg-img1.png) 50% 50%;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 36px;
+  left: 0;
+  overflow: auto;
+}
+div.main-conainer {
+  width: 560px;
+  height: 627px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin: -313px 0 0 -280px;
+}
+div.form-title {
+  width: 100%;
+  height: 62px;
+  background-color: rgba(0, 0, 0, 0.63);
+  text-align: center;
+}
+div.form-title span {
+  display: inline-block;
+  font-size: 24px;
+  color: #ffffff;
+  margin: 16px auto;
+}
+div.form {
+  margin-top: 3px;
+  width: 100%;
+  height: 560px;
+  background-color: rgba(0, 0, 0, 0.63);
+  padding: 1px;
+  box-sizing: border-box;
+}
+div.form-fb-button img {
+  display: block;
+  width: 276px;
+  height: 35px;
+}
+div.form-fb-button {
+  margin: 30px auto;
+  width: 276px;
+}
+div.form-fb-button a {
+  outline: none;
+}
+div.form-divider {
+  background: url(../img/form-divider.png) 0px 13px no-repeat;
+  width: 276px;
+  color: #999999;
+  margin: 15px auto;
+  text-align: center;
+}
+div.form-divider span {
+  display: inline-block;
+  margin: 3px 0 0 2px;
+}
+fieldset {
+  margin: 0 auto;;
+  padding: 0;
+  border: none;
+  width: 276px;
+}
+fieldset input {
+  margin: 0 0 15px 0;
+  padding: 7px 0 7px 17px;
+  box-sizing: border-box;
+  width: 276px;
+  color: #cccccc;
+  border: 1px solid #101010;
+  border-bottom: 1px solid #4d4e4c;
+  background-color: #101010;
+  font-size: 14px;
+  outline: none;
+}
+fieldset input:focus {
+  background: #1b5288;
+  box-shadow: 0 0 4px 2px #3382d1;
+  border: 1px solid #154778;
+  border-bottom: 1px solid rgba(110, 166, 222, 0.61);
+}
+fieldset input:-moz-placeholder {
+  color: #cccccc;
+  opacity: 1;
+}
+fieldset input::-moz-placeholder {
+  color: #cccccc;
+  opacity: 1;
+}
+fieldset input:-ms-input-placeholder {
+  color: #cccccc;
+  opacity: 1;
+}
+fieldset input::-webkit-input-placeholder {
+  color: #cccccc;
+  opacity: 1;
+}
+fieldset input[name="first-name"]:first-child {
+  margin-top: 20px;
+}
+.updates {
+  width: 276px;
+  margin: 0 auto;
+}
+label[for="updates"] {
+  color: #cccccc;
+}
+input[name="updates"] {
+  margin: 5px 5px 10px 0;
+}
+.create-account-button {
+  width: 151px;
+  margin: 15px auto;
+}
+input[name="create-account"] {
+  width: 151px;
+  height: 37px;
+  background: url(../img/create-account-button.png) no-repeat;
+  border: none;
+  cursor: pointer;
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: bold;
+  padding-left: 4px;
+  display: block;
+}
+div.terms {
+  width: 315px;
+  margin: 0 auto;
+  color: #cccccc;
+  font-size: 11px;
+  text-align: center;
+  line-height: 1.4;
+  padding-right: 5px;
+}
+div.terms a {
+  color: #cccccc;
+  text-decoration: none;
+}
+div.terms a:hover {
+  text-decoration: underline;
+}
